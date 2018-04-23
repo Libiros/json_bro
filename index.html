@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JSON</title>
+
+  <!-- Чтобы не ебаться со стилями, я встроил готовую библиотеку bootstrap 4.1, благодаря ей я прописал ниже такие классы, как container, m-5, p-5, d-flex, justify-content-center, w-50, table, table-sm, table-bordered, table-hover. Но можно было и вручную придумать им стилей -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <!-- Bootstrap 4.1 -->
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container m-5 p-5 d-flex justify-content-center">
+    <div class="t-wrapper w-50">
+      <table class="table table-sm table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Число, месяц, день</th>
+            <th>Температура</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <!-- Здесь разместятся все наши строки -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
